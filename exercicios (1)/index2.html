@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Locadora JS</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="section-title">
+                <h1>Vídeo Locadora</h1>
+            </div>
+
+            <div class="section-content">
+                <form>
+                    <div class="film-title">
+                        <label for="">Título do filme</label>
+                        <input type="text" name="inTitle" id="inTitle">
+                    </div>
+
+                    <div class="film-duraction">
+                        <label for="">Duração (min):</label>
+                        <input type="number" name="inDuraction" id="inDuraction">
+                    </div>
+                </form>
+                
+                <div class="button-converter">
+                    <button>Converter em Horas e Minutos</button>
+                </div>
+            </div>
+
+            <div class="messages-finals">
+                <p id="outTitle"></p>
+                <p id="outDuraction"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
